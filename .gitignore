@@ -1,0 +1,37 @@
+#.gitignore file for Python projects
+
+#VSCode settings
+.vscode/
+
+#General
+__pycache__/
+*.log
+.data/
+.cache/
+config/
+
+#Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+#Python distribution/packaging
+dist/
+build/
+*.egg-info/
+*.egg
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+#Files
+*.yaml
+
+#Poetry files
+poetry.lock
+
+#Jupyter Notebook
+.ipynb_checkpoints/
